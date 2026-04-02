@@ -46,3 +46,38 @@ x = y = z = 11
 print(x, y, z)
 
 
+# DAY 2 -- 02/04/2026
+
+What is Data Type ? Types of data type :--
+    Text Type - str, char
+    Numeric type - Int, Float, Complex
+    Sequence type - List, Tuple, Range
+    Mapping type - Dict / Dictionary
+    Set type - Set, Frozen set 
+    Boolean type - bool 
+Example of data types :- 
+    str/char = "Anindya"
+    int = 11
+    float = 1.1
+    complex = 1A
+    List = ["Anindya", "Adhikari"]
+    Tuple = ("Anindya", "Adhikari")
+    Range = range(11)
+    Dict = {"Anindya", "Adhikari"}
+    Set = {"Anindya", "Adhikari"}
+    Frozen set = frozenset({"Anindya", "Adhikari"})
+    Boolean = True/False
+    
+
+# String Slicing 
+# What is String Slicing ? 
+
+# Print First two letter 
+x = "abcdefghijk"
+print(x[:2])
+# Print Middle two letter
+x = "abcdefghijk"
+print(x[4:6])
+# Print Last two letter
+x = "abcdefghijk"
+print(x[-2:])
