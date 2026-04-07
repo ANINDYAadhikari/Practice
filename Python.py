@@ -7,14 +7,14 @@ print("hii")
 
 
 # what is case-sensitive ?
-print("hiii") # THIS IS CORRECT 
-PRINT("hiii") # THIS IS WRONG 
+'''print("hiii") # THIS IS CORRECT 
+PRINT("hiii") # THIS IS WRONG '''
 
 
 # what is comment line ? and type of comment line ?
 # hashtag denotes single line comment 
-three columns denotes
- multi line comments
+'''three columns denotes
+ multi line comments'''
 
 
 # what is variable ?
@@ -48,15 +48,16 @@ print(x, y, z)
 
 # DAY 2 -- 02/04/2026
 
-What is Data Type ? Types of data type :--
-    Text Type - str, char
+# What is Data Type ? Types of data type :--
+'''    Text Type - str, char
     Numeric type - Int, Float, Complex
     Sequence type - List, Tuple, Range
     Mapping type - Dict / Dictionary
     Set type - Set, Frozen set 
-    Boolean type - bool 
-Example of data types :- 
-    str/char = "Anindya"
+    Boolean type - bool '''
+
+# Example of data types :- 
+'''    str/char = "Anindya"
     int = 11
     float = 1.1
     complex = 1A
@@ -66,7 +67,7 @@ Example of data types :-
     Dict = {"Anindya", "Adhikari"}
     Set = {"Anindya", "Adhikari"}
     Frozen set = frozenset({"Anindya", "Adhikari"})
-    Boolean = True/False
+    Boolean = True/False'''
     
 
 # String Slicing 
