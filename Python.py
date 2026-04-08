@@ -82,3 +82,6 @@ print(x[4:6])
 # Print Last two letter
 x = "abcdefghijk"
 print(x[-2:])
+
+
+
