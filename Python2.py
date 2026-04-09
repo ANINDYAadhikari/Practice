@@ -1,39 +1,60 @@
 # Q1 What is indentation in Python?
+'''Indentation refers to correct amount of spaces between code lines'''
+
 # Q2 How many spaces are recommended for one level of indentation in Python?
+'''For one level of identation one space is recomended'''
+
 # Q3 Does Python use curly braces {} to define code blocks? Explain what it uses instead.
+'''No, python don't uses curly braces to define code block. It uses colon and indentation to define code block'''
+
 # Q4 What error does Python throw when indentation is wrong?
+'''Indentation error'''
+
 # Q5 Can you mix tabs and spaces for indentation in Python 3? What happens if you do?
-# Q6 What is the output?
+'''No we can't. Mixing them within the same block of code is strictly disallowed and will cause your program to fail. '''
+
+# Q6 What is the output?  = Hello World
 '''if True:
     print("Hello")
 print("World")'''
-# Q7 What is the output?
+
+# Q7 What is the output? = Big Number
 '''x = 10
 if x > 5:
     print("Big")
     print("Number")'''
-# Q8 What is the output?
+
+# Q8 What is the output? = 0 1 2
 '''for i in range(3):
     print(i)'''
-# Q9 What is the output?
+
+# Q9 What is the output? = three done
 '''x = 3
 if x == 3:
     print("three")
 print("done")'''
-# Q10 What is the output?
+
+# Q10 What is the output? = Hi
 '''def greet():
     print("Hi")
 greet()'''
+
 # Q11 Is indentation only required inside if statements, or also inside loops and functions?
+'''No, Indentation needs in loops and functions same as if statements'''
+
 # Q12 What does it mean when we say Python is "indentation-sensitive"?
-# Q13 Will this code run without error?
+'''This means python strictly maintains the rule of spacing between code lines'''
+
+# Q13 Will this code run without error? = No, it will give and Indentation Error
 '''if True:
     print("A")
   print("B")'''
-# Q14 What is the output?
+
+# Q14 What is the output? = 
 '''for i in range(2):
     print("Loop")
 print("End")'''
+
 # Q15 What keyword marks the beginning of an indented block in Python?
 # Q16 What is the output?
 '''def say():
@@ -51,147 +72,107 @@ while x < 2:
 '''if 5 > 2:
     print("Yes")'''
 
-Q21
-Fix the Bug
-Fix the indentation error:
-def add(a, b):
-return a + b
-Q22
-Code Output
-What is the output?
-for i in range(3):
+# Q21 Fix the indentation error:
+'''def add(a, b):
+return a + b'''
+# Q22 What is the output?
+'''for i in range(3):
     if i == 2:
-        print("Found", i)
-Q23
-Fix the Bug
-Fix the error:
-x = 10
+        print("Found", i)'''
+# Q23 Fix the error:
+'''x = 10
 if x > 5:
 print("Greater")
 else:
-    print("Smaller")
-Q24
-Code Output
-What is the output?
-def check(n):
+    print("Smaller")'''
+# Q24 What is the output?
+'''def check(n):
     if n > 0:
         print("Positive")
     else:
         print("Not positive")
-check(-1)
-Q25
-Fix the Bug
-Fix the error:
-for i in range(3):
+check(-1)'''
+# Q25 Fix the error:
+'''for i in range(3):
     print(i)
-  print("done")
-Q26
-Code Output
-What is the output?
-def outer():
+  print("done")'''
+# Q26 What is the output?
+'''def outer():
     print("outer")
     def inner():
         print("inner")
     inner()
-outer()
-Q27
-Fix the Bug
-Fix the error:
-if True:
+outer()'''
+# Q27 Fix the error:
+'''if True:
     print("Line 1")
-        print("Line 2")
-Q28
-Code Output
-What is the output?
-x = 5
+        print("Line 2")'''
+# Q28 What is the output?
+'''x = 5
 if x > 3:
     if x > 4:
         print("greater than 4")
-Q29
-Fix the Bug
-Fix the error:
+# Q29 Fix the error:
 while True:
 print("running")
-break
-Q30
-Code Output
-What is the output?
-for i in range(3):
+break'''
+# Q30 What is the output?
+'''for i in range(3):
     for j in range(2):
-        print(i, j)
-Q31
-Fix the Bug
-Fix the error:
-def greet(name):
+        print(i, j)'''
+# Q31 Fix the error:
+'''def greet(name):
     print("Hello")
-  print(name)
-Q32
-Code Output
-What is the output?
-def test():
+  print(name)'''
+# Q32 What is the output?
+'''def test():
     x = 10
     if x == 10:
         print("ten")
-test()
-Q33
-Fix the Bug
-Fix the error:
-for i in range(5):
+test()'''
+# Q33 Fix the error:
+'''for i in range(5):
     if i % 2 == 0:
-    print(i)
-Q34
-Code Output
-What is the output?
-def run():
+    print(i)'''
+# Q34 What is the output?
+'''def run():
     for i in range(3):
         print(i)
-run()
-Q35
-Fix the Bug
-Fix the error:
-try:
+run()'''
+# Q35 Fix the error:
+'''try:
     x = 1/0
     except ZeroDivisionError:
-    print("Error")
-Q36
-Code Output
-What is the output?
-x = 1
+    print("Error")'''
+# Q36 What is the output?
+'''x = 1
 if x == 1:
     print("one")
     if x < 5:
         print("small")
-print("done")
-Q37
-Fix the Bug
-Fix the error:
-class Dog:
+print("done")'''
+# Q37 Fix the error:
+'''class Dog:
 def bark(self):
-    print("Woof")
-Q38
-Code Output
-What is the output?
-def fn():
+    print("Woof")'''
+# Q38 What is the output?
+'''def fn():
     pass
 fn()
-print("after")
-Q39
-Fix the Bug
-Fix the error:
-for i in range(3):
+print("after")'''
+# Q39 Fix the error:
+'''for i in range(3):
     print(i)
-        print(i * 2)
-Q40
-Code Output
-What is the output?
-x = 10
+        print(i * 2)'''
+# Q40 What is the output?
+'''x = 10
 if x > 5:
     print("A")
 elif x > 3:
     print("B")
 else:
-    print("C")
-Hard — Q41 to Q50
+    print("C")'''
+'''Hard — Q41 to Q50
 Q41
 Write Code
 Write a function is_even(n) that prints "Even" if n is even, "Odd" otherwise. Use proper indentation.
@@ -221,4 +202,4 @@ Write Code
 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
 Q50
 Write Code
-Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.
+Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.'''

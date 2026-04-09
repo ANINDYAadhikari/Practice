@@ -75,7 +75,7 @@ print(x, y, z)
 
 # Print First two letter 
 x = "abcdefghijk"
-print(x[:2])
+ print(x[:2])
 # Print Middle two letter
 x = "abcdefghijk"
 print(x[4:6])
