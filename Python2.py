@@ -56,42 +56,70 @@ greet()'''
 print("End")'''
 
 # Q15 What keyword marks the beginning of an indented block in Python?
-# Q16 What is the output?
+''': colon'''
+
+# Q16 What is the output? = Hello World
 '''def say():
     print("Hello")
     print("World")
 say()'''
+
 # Q17 In Python, what character ends a line that starts a new indented block (e.g., after if, for, def)?
-# Q18 What is the output?
+''': colon'''
+# Q18 What is the output? = 
 '''x = 0
 while x < 2:
     print(x)
     x += 1'''
+
 # Q19 True or False: In Python, a code block ends when the indentation level goes back to the previous level.
-# Q20 What is the output?
+'''True'''
+
+# Q20 What is the output? = Yes
 '''if 5 > 2:
     print("Yes")'''
 
 # Q21 Fix the indentation error:
-'''def add(a, b):
-return a + b'''
-# Q22 What is the output?
-'''for i in range(3):
+'''
+def add(a, b):
+return a + b
+''' #Wrong 
+'''
+def add(a, b):
+    return a + b
+''' # Correct
+
+# Q22 What is the output? = Found 2 
+'''
+for i in range(3):
     if i == 2:
-        print("Found", i)'''
+        print("Found", i)
+'''
+
 # Q23 Fix the error:
-'''x = 10
+'''
+x = 10
 if x > 5:
 print("Greater")
 else:
-    print("Smaller")'''
-# Q24 What is the output?
-'''def check(n):
+    print("Smaller")
+''' # Wrong
+'''x = 10 
+if x > 5:
+    print("Greater")
+else: print("Smaller")
+''' #Correct
+
+# Q24 What is the output? = Not Positive
+'''
+def check(n):
     if n > 0:
         print("Positive")
     else:
         print("Not positive")
-check(-1)'''
+check(-1)
+'''
+
 # Q25 Fix the error:
 '''for i in range(3):
     print(i)
