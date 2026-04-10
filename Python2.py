@@ -121,20 +121,38 @@ check(-1)
 '''
 
 # Q25 Fix the error:
-'''for i in range(3):
+'''
+for i in range(3):
     print(i)
-  print("done")'''
-# Q26 What is the output?
-'''def outer():
+  print("done") # Wrong
+'''
+'''
+for i in range(3):
+    print(i)
+print("done") # Correct
+'''
+# Q26 What is the output? = outer, inner
+'''
+def outer():
     print("outer")
     def inner():
         print("inner")
     inner()
-outer()'''
+outer()
+'''
+
 # Q27 Fix the error:
-'''if True:
+'''
+if True:
     print("Line 1")
-        print("Line 2")'''
+        print("Line 2") # Wrong
+'''
+'''
+if True:
+    print("Line 1")
+print("Line 2") # Correct
+'''
+
 # Q28 What is the output?
 '''x = 5
 if x > 3:
