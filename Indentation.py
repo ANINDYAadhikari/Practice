@@ -262,51 +262,65 @@ class Dog:
  def bark(self):
     print("Woof") # Correct
 '''
-# Q38 What is the output?
-'''def fn():
+# Q38 What is the output? = after
+'''
+def fn():
     pass
 fn()
-print("after")'''
+print("after")
+'''
+
 # Q39 Fix the error:
-'''for i in range(3):
+'''
+for i in range(3):
     print(i)
-        print(i * 2)'''
-# Q40 What is the output?
-'''x = 10
+        print(i * 2) # Wrong
+'''
+'''
+for i in range(3):
+    print(i)
+    print(i * 2) # Correct
+'''
+
+# Q40 What is the output? = A
+'''
+x = 10
 if x > 5:
     print("A")
 elif x > 3:
     print("B")
 else:
-    print("C")'''
-'''Hard — Q41 to Q50
+    print("C")
+'''
+
+'''
 Q41
-Write Code
+
 Write a function is_even(n) that prints "Even" if n is even, "Odd" otherwise. Use proper indentation.
 Q42
-Write Code
+
 Write a nested loop that prints a 3x3 grid of * using proper indentation.
 Q43
-Write Code
+
 Write a while loop that counts from 1 to 5 and prints each number. Use correct indentation.
 Q44
-Write Code
+
 Write a function that takes a list of numbers and prints only the positive ones. Use a for loop and if with correct indentation.
 Q45
-Write Code
+
 Write a function with a nested if-elif-else inside a for loop that classifies numbers 1–10 as "low" (1–3), "mid" (4–7), or "high" (8–10).
 Q46
-Write Code
+
 Write a try-except block that tries to divide two numbers and catches ZeroDivisionError. Use correct indentation.
 Q47
-Write Code
+
 Write a class Animal with a method speak() that prints "I am an animal". Create an object and call the method. Use proper indentation.
 Q48
-Write Code
+
 Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
 Q49
-Write Code
+
 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
 Q50
-Write Code
+
 Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.'''
