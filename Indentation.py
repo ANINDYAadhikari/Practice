@@ -173,45 +173,95 @@ print("running")
 break  # Correct
 '''
 
-# Q30 What is the output?
-'''for i in range(3):
+# Q30 What is the output? = 
+'''0 0
+0 1
+1 0
+1 1
+2 0
+2 1'''
+'''
+for i in range(3):
     for j in range(2):
-        print(i, j)'''
+        print(i, j)
+'''
+
 # Q31 Fix the error:
-'''def greet(name):
+'''
+def greet(name):
     print("Hello")
-  print(name)'''
-# Q32 What is the output?
-'''def test():
+  print(name) # Wrong
+'''
+'''
+def greet(name):
+    print("Hello")
+  print(name) # Correct
+'''
+
+# Q32 What is the output? = ten
+'''
+def test():
     x = 10
     if x == 10:
         print("ten")
-test()'''
+test()
+'''
+
 # Q33 Fix the error:
-'''for i in range(5):
+'''
+for i in range(5):
     if i % 2 == 0:
-    print(i)'''
-# Q34 What is the output?
-'''def run():
+    print(i) # Wrong
+'''
+'''
+for i in range(5):
+    if i % 2 == 0:
+     print(i) # Correct
+'''
+
+# Q34 What is the output? = 0, 1, 2
+'''
+def run():
     for i in range(3):
         print(i)
-run()'''
+run()
+'''
+
 # Q35 Fix the error:
-'''try:
+'''
+try:
     x = 1/0
     except ZeroDivisionError:
-    print("Error")'''
-# Q36 What is the output?
-'''x = 1
+    print("Error") # Wrong
+'''
+'''
+try:
+    x = 1 / 0
+except ZeroDivisionError:
+    print("Error") # Correct
+'''
+
+# Q36 What is the output? = one , small, done
+'''
+x = 1
 if x == 1:
     print("one")
     if x < 5:
         print("small")
-print("done")'''
+print("done")
+'''
+
 # Q37 Fix the error:
-'''class Dog:
+'''
+class Dog:
 def bark(self):
-    print("Woof")'''
+    print("Woof") # Wrong
+'''
+'''
+class Dog:
+ def bark(self):
+    print("Woof") # Correct
+'''
 # Q38 What is the output?
 '''def fn():
     pass
