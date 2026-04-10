@@ -153,15 +153,26 @@ if True:
 print("Line 2") # Correct
 '''
 
-# Q28 What is the output?
-'''x = 5
+# Q28 What is the output? = 
+'''
+x = 5
 if x > 3:
     if x > 4:
         print("greater than 4")
+'''
+
 # Q29 Fix the error:
-while True:
+'''
+while True: 
 print("running")
-break'''
+break  # Wrong
+'''
+'''
+while True: 
+print("running")
+break  # Correct
+'''
+
 # Q30 What is the output?
 '''for i in range(3):
     for j in range(2):
