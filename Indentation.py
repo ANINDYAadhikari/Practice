@@ -332,6 +332,17 @@ pos_num(numbers)
 '''
 
 # Q45 Write a function with a nested if-elif-else inside a for loop that classifies numbers 1–10 as "low" (1–3), "mid" (4–7), or "high" (8–10).
+'''
+def classify_numbers():
+    for i in range(1, 11):
+        if 1 <= i <= 3:
+            print(i, "low")
+        elif 4 <= i <= 7:
+            print(i, "mid")
+        else:
+            print(i, "high")
+classify_numbers()
+'''
 
 # Q46 Write a try-except block that tries to divide two numbers and catches ZeroDivisionError. Use correct indentation.
 
