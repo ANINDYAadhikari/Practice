@@ -295,12 +295,41 @@ else:
 
 
 # Q41 Write a function is_even(n) that prints "Even" if n is even, "Odd" otherwise. Use proper indentation.
+'''
+def is_even(n):
+    if n % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+n = int(input())
+is_even(n)
+'''
 
 # Q42 Write a nested loop that prints a 3x3 grid of * using proper indentation.
+'''
+for i in range(3):
+    for j in range(3):
+        print("*", end =" ")
+    print()
+'''
 
 # Q43 Write a while loop that counts from 1 to 5 and prints each number. Use correct indentation.
+'''
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+'''
 
 # Q44 Write a function that takes a list of numbers and prints only the positive ones. Use a for loop and if with correct indentation.
+'''
+def pos_num(n):
+    for num in n:
+        if num > 0:
+            print(num)
+numbers = [1, 2, 3, -5, 9, -10, -26]
+pos_num(numbers)
+'''
 
 # Q45 Write a function with a nested if-elif-else inside a for loop that classifies numbers 1–10 as "low" (1–3), "mid" (4–7), or "high" (8–10).
 
