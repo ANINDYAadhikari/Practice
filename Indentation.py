@@ -293,34 +293,23 @@ else:
     print("C")
 '''
 
-'''
-Q41
 
-Write a function is_even(n) that prints "Even" if n is even, "Odd" otherwise. Use proper indentation.
-Q42
+# Q41 Write a function is_even(n) that prints "Even" if n is even, "Odd" otherwise. Use proper indentation.
 
-Write a nested loop that prints a 3x3 grid of * using proper indentation.
-Q43
+# Q42 Write a nested loop that prints a 3x3 grid of * using proper indentation.
 
-Write a while loop that counts from 1 to 5 and prints each number. Use correct indentation.
-Q44
+# Q43 Write a while loop that counts from 1 to 5 and prints each number. Use correct indentation.
 
-Write a function that takes a list of numbers and prints only the positive ones. Use a for loop and if with correct indentation.
-Q45
+# Q44 Write a function that takes a list of numbers and prints only the positive ones. Use a for loop and if with correct indentation.
 
-Write a function with a nested if-elif-else inside a for loop that classifies numbers 1–10 as "low" (1–3), "mid" (4–7), or "high" (8–10).
-Q46
+# Q45 Write a function with a nested if-elif-else inside a for loop that classifies numbers 1–10 as "low" (1–3), "mid" (4–7), or "high" (8–10).
 
-Write a try-except block that tries to divide two numbers and catches ZeroDivisionError. Use correct indentation.
-Q47
+# Q46 Write a try-except block that tries to divide two numbers and catches ZeroDivisionError. Use correct indentation.
 
-Write a class Animal with a method speak() that prints "I am an animal". Create an object and call the method. Use proper indentation.
-Q48
+# Q47 Write a class Animal with a method speak() that prints "I am an animal". Create an object and call the method. Use proper indentation.
 
-Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
-Q49
+# Q48 Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
 
-Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
-Q50
+# Q49 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
 
-Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.'''
+# Q50 Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.'''
