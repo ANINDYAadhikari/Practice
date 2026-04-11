@@ -345,10 +345,27 @@ classify_numbers()
 '''
 
 # Q46 Write a try-except block that tries to divide two numbers and catches ZeroDivisionError. Use correct indentation.
+'''
+try:
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    result = a / b
+    print("Result:", result)
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero")
+'''
 
 # Q47 Write a class Animal with a method speak() that prints "I am an animal". Create an object and call the method. Use proper indentation.
+class Animal:
+    def speak(self):
+        print("I am an animal")
+# create object
+a = Animal()
+# call method
+a.speak()
 
 # Q48 Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
+
 
 # Q49 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
 
