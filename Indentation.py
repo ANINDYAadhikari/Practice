@@ -356,6 +356,7 @@ except ZeroDivisionError:
 '''
 
 # Q47 Write a class Animal with a method speak() that prints "I am an animal". Create an object and call the method. Use proper indentation.
+'''
 class Animal:
     def speak(self):
         print("I am an animal")
@@ -363,9 +364,14 @@ class Animal:
 a = Animal()
 # call method
 a.speak()
+'''
 
 # Q48 Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
-
+def print_table(n):
+    for i in range(1,11):
+        print(n, "*", i, "=", n * i)  # (e.g., 5 * 3 = 15)
+n = int(input("Enter a number :"))
+print_table(n)
 
 # Q49 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
 
