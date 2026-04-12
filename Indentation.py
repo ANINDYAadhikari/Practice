@@ -386,3 +386,11 @@ countdown(5)
 '''
 
 # Q50 Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.
+'''
+def print_2d_list(data):
+    for row in data:          # outer loop (each list)
+        for item in row:      # inner loop (each element)
+            print(item)
+data = [[0, 1, 3, 4], [6, 7, 9, 10]]
+print_2d_list(data)
+'''
