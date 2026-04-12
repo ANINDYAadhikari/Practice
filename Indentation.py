@@ -367,12 +367,22 @@ a.speak()
 '''
 
 # Q48 Write a function print_table(n) that prints the multiplication table of n from 1 to 10 using a for loop. Proper indentation required.
+'''
 def print_table(n):
     for i in range(1,11):
         print(n, "*", i, "=", n * i)  # (e.g., 5 * 3 = 15)
 n = int(input("Enter a number :"))
 print_table(n)
+'''
 
 # Q49 Write a recursive function countdown(n) that counts down from n to 0 and prints each number. Use proper indentation.
+'''
+def countdown(n):
+    if n < 0:
+        return
+    print(n)
+    countdown(n - 1)
+countdown(5)
+'''
 
-# Q50 Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.'''
+# Q50 Write a function that takes a 2D list (list of lists) and prints each element using nested loops. Use correct indentation at every level.
