@@ -1,5 +1,5 @@
-
-# Q1 What is a variable in Python?
+# Q1 What is a variable in Python? 
+# ANS = variable is used for to store data of code block.
 # Q2 Do you need to declare the data type of a variable in Python? Why or why not?
 # Q3 Which of these are valid Python variable names? 2name, my_name, _name, my-name
 # Q4 What is the naming convention for variables in Python (e.g., myName vs my_name)?
