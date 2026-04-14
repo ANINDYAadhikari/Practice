@@ -2,48 +2,85 @@
 '''ANS = variable is used for to store data of code block.'''
 
 # Q2 Do you need to declare the data type of a variable in Python? Why or why not?  
-'''ANS = It depends on the situation, if we want to know what type of data we have used then we can print data type in the print statement.'''
+'''ANS = It depends on the situation, 
+        if we want to know what type of data we have used then we can print data type in the print statement.'''
 
 # Q3 Which of these are valid Python variable names? 2name, my_name, _name, my-name
 '''ANS = my_name, _name'''
 
 # Q4 What is the naming convention for variables in Python (e.g., myName vs my_name)?
-'''ANS = '''
+'''ANS = Variable naming follows the snake_case convention, 
+         where words are lowercase and separated by underscores'''
 
 # Q5 Can a Python variable name start with a number? Give an example.
-# Q6 What is the output?
+'''ANS = No a Python variable name can't start with a number'''
+
+# Q6 What is the output? = 8
+'''
 x = 5
 y = 3
 print(x + y)
+'''
+
 # Q7 What is the output?
+'''
 name = "Alice"
 print(name)
-# Q8 What is the output?
+'''
+
+# Q8 What is the output? = 20
+'''
 x = 10
 x = 20
 print(x)
-# Q9 What is the output?
+'''
+
+# Q9 What is the output? = 5
+'''
 a = b = c = 5
 print(a, b, c)
-# Q10 What is the output?
+'''
+
+# Q10 What is the output? = 3 7 
+'''
 x, y = 3, 7
 print(x)
 print(y)
+'''
+
 # Q11 What does it mean that Python variables are "dynamically typed"?
+'''ANS = Variables are dynamically typed means that the interpreter determines the data type of a variable at runtime
+'''
+
 # Q12 What is the difference between a local and a global variable in Python?
-# Q13 What is the output?
+'''ANS = We can call a local variable only in a specified block of code but in other hands, 
+         we can call the global variable from any where in the code'''
+
+# Q13 What is the output? = int
+'''
 x = "hello"
 x = 10
 print(type(x))
-# Q14 What is the output?
+'''
+
+# Q14 What is the output? = int
+'''
 x = 5
 print(type(x))
+'''
+
 # Q15 Are Python variable names case-sensitive? Is Name different from name?
-# Q16 What is the output?
+'''ANS = Yes, Python variable names are case-sensitive. Definietaly Name is different from name.
+'''
+
+# Q16 What is the output? = 10
+'''
 a = 10
 b = a
 a = 20
 print(b)
+'''
+
 # Q17 What is a reserved keyword in Python? Can you use it as a variable name? Give 2 examples of reserved keywords.
 # Q18 What is the output?
 x = 100
