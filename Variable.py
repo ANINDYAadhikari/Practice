@@ -86,11 +86,16 @@ print(b)
         No we can't use it as a variable name.
         if, for'''
 
-# Q18 What is the output?
+# Q18 What is the output? = No Output
+'''
 x = 100
 del x
 print(x)
+'''
+
 # Q19 What does the del keyword do to a variable?
+'''ANS = del keyword delets a variable'''
+
 # Q20 What is the output?
 x = 5
 y = x
