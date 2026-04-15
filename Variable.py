@@ -82,6 +82,10 @@ print(b)
 '''
 
 # Q17 What is a reserved keyword in Python? Can you use it as a variable name? Give 2 examples of reserved keywords.
+'''ANS = A reserved keyword in Python is a word that has a special, predefined meaning and is part of the language's syntax and structure.
+        No we can't use it as a variable name.
+        if, for'''
+
 # Q18 What is the output?
 x = 100
 del x
