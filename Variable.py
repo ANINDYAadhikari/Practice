@@ -96,34 +96,60 @@ print(x)
 # Q19 What does the del keyword do to a variable?
 '''ANS = del keyword delets a variable'''
 
-# Q20 What is the output?
+# Q20 What is the output? = True
+'''
 x = 5
 y = x
 print(x == y)
+'''
 
 # Q21 Fix the error:
+'''
 2myvar = 10
-print(2myvar)
-# Q22 What is the output?
+print(2myvar) #Wrong
+'''
+'''
+myvar = 10
+print(myvar) #Correct
+'''
+
+# Q22 What is the output? = 20 , 10
+'''
 x = 10
 def fn():
     x = 20
     print(x)
 fn()
 print(x)
+'''
+
 # Q23 Fix the error:
+'''
 class = "Python"
 print(class)
-# Q24 What is the output?
+'''
+# We can't use class as a var name, cause it is a reserved keyword in python.
+
+# Q24 What is the output? = 99
+'''
 x = 5
 def change():
     global x
     x = 99
 change()
 print(x)
+'''
+
 # Q25 Fix the error:
+'''
 a, b = 1, 2, 3
-print(a, b)
+print(a, b) #Wrong
+'''
+'''
+a, b, c = 1, 2, 3
+print(a, b, c) #Correct
+'''
+
 # Q26 What is the output?
 x = "Python"
 y = x
