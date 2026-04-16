@@ -261,22 +261,46 @@ x = 5
 x += 3
 x *= 2
 print(x)
+
+
 # Q37 Fix the error:
+'''
 for = 10
-print(for)
-# Q38 What is the output?
+print(for) #Wrong
+'''
+'''
+var = 10
+print(var) #Correct
+'''
+
+# Q38 What is the output? John Jane
+'''
 name = "John"
 NAME = "Jane"
 print(name, NAME)
+'''
+
 # Q39 Fix the error:
+'''
 x = 10
 y = "5"
-print(x + y)
-# Q40 What is the output?
+print(x + y) #Wrong
+'''
+'''
+x = 10
+y = 5
+print(x + y) #Correct
+'''
+
+# Q40 What is the output? 16 /n
+#                        4   3
+'''
 a = 3
 b = a
 a += 1
 print(a, b)
+'''
+
 # Q41 Write a program that swaps two variables a = 10 and b = 20 without using a third variable. Print both after swapping.
 # Q42 Write a function that takes a number as argument, stores the square and cube in separate variables, and returns both.
 # Q43 Create a program using global keyword — define a global counter, write a function that increments it 5 times, and print the final count.
