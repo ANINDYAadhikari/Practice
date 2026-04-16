@@ -150,52 +150,112 @@ a, b, c = 1, 2, 3
 print(a, b, c) #Correct
 '''
 
-# Q26 What is the output?
+# Q26 What is the output? = Python
+'''
 x = "Python"
 y = x
 x = "Java"
 print(y)
+'''
+
 # Q27 Fix the error:
+'''
 print(score)
+score = 100 #Wrong
+'''
+'''
 score = 100
-# Q28 What is the output?
+print(score) #Correct
+'''
+
+# Q28 What is the output? = 3, 10
+'''
 x = 10
 y = 3
 x, y = y, x
 print(x, y)
+'''
+
 # Q29 Fix the error:
+'''
 my var = 10
-print(my var)
-# Q30 What is the output?
+print(my var) #Wrong
+'''
+'''
+my_var = 10
+print(my_var) #Correct
+'''
+
+# Q30 What is the output? = 3
+'''
 a = 1
 b = 2
 c = a + b
 a = 10
 print(c)
+'''
+
 # Q31 Fix the error:
+'''
 def add():
     total = a + b
 a = 5
 b = 3
 add()
-print(total)
-# Q32 What is the output?
+print(total)  #Wrong
+'''
+'''
+def add():
+    a = 5
+    b = 3
+    return a + b
+
+total = add()
+print(total)  #Correct
+'''
+
+# Q32 What is the output? = [1, 2, 3, 4]
+'''
 x = [1, 2, 3]
 y = x
 y.append(4)
 print(x)
+'''
+
 # Q33 Fix the error so that the function modifies the global variable:
+'''
 count = 0
 def increment():
     count += 1
 increment()
-print(count)
-# Q34 What is the output?
+print(count) #Wrong
+'''
+'''
+count = 0
+def increment():
+    global count
+    count += 1
+increment()
+print(count) #Correct
+'''
+
+# Q34 What is the output? = str
+'''
 x = None
 print(type(x))
+'''
+
 # Q35 Fix the error:
+'''
 True = 1
 print(True)
+'''
+'''
+var = 1
+print(var)
+'''
+# We can't use True as a variable name, cause it is a reserved keyword in python.
+
 # Q36 What is the output?
 x = 5
 x += 3
