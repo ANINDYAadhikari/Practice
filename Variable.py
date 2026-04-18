@@ -256,12 +256,13 @@ print(var)
 '''
 # We can't use True as a variable name, cause it is a reserved keyword in python.
 
-# Q36 What is the output?
+# Q36 What is the output? = 16
+'''
 x = 5
 x += 3
 x *= 2
 print(x)
-
+'''
 
 # Q37 Fix the error:
 '''
