@@ -303,6 +303,16 @@ print(a, b)
 '''
 
 # Q41 Write a program that swaps two variables a = 10 and b = 20 without using a third variable. Print both after swapping.
+a = 10
+b = 20
+# Swapping without third variable
+a = a + b
+b = a - b
+a = a - b
+print("After swapping:")
+print("a =", a)
+print("b =", b)
+
 # Q42 Write a function that takes a number as argument, stores the square and cube in separate variables, and returns both.
 # Q43 Create a program using global keyword — define a global counter, write a function that increments it 5 times, and print the final count.
 # Q44 Write a program where you assign 5 different types of values to the same variable one by one and print the type of the variable each time.
