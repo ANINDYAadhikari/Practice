@@ -314,6 +314,17 @@ print("a =", a)
 print("b =", b)
 
 # Q42 Write a function that takes a number as argument, stores the square and cube in separate variables, and returns both.
+# Function definition
+def square_and_cube(num):
+    square = num ** 2
+    cube = num ** 3
+    return square, cube
+
+number = int(input("Enter a number: "))
+sq, cb = square_and_cube(number)
+print("Square:", sq)
+print("Cube:", cb)
+
 # Q43 Create a program using global keyword — define a global counter, write a function that increments it 5 times, and print the final count.
 # Q44 Write a program where you assign 5 different types of values to the same variable one by one and print the type of the variable each time.
 # Q45 Write a program that takes user input and stores it in a variable. Then checks if the variable is empty ("") or not and prints a message accordingly.
