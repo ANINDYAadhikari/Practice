@@ -341,6 +341,19 @@ print("Final counter value:", counter)
 '''
 
 # Q44 Write a program where you assign 5 different types of values to the same variable one by one and print the type of the variable each time.
+'''
+x = 10
+print(x, "->", type(x))
+x = 3.14
+print(x, "->", type(x))
+x = "Hello"
+print(x, "->", type(x))
+x = True
+print(x, "->", type(x))
+x = [1, 2, 3]
+print(x, "->", type(x))
+'''
+
 # Q45 Write a program that takes user input and stores it in a variable. Then checks if the variable is empty ("") or not and prints a message accordingly.
 # Q46 Explain with code why x = [1,2,3]; y = x; y.append(4) also changes x. Then fix it so x is not affected.
 # Q47 Write a program that unpacks a list of 5 elements into 5 separate variables and prints each one with its variable name.
