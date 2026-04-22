@@ -355,8 +355,66 @@ print(x, "->", type(x))
 '''
 
 # Q45 Write a program that takes user input and stores it in a variable. Then checks if the variable is empty ("") or not and prints a message accordingly.
+'''
+user_input = input("Enter something: ")
+if user_input == "":
+    print("The variable is empty.")
+else:
+    print("The variable is not empty.")
+'''
+
 # Q46 Explain with code why x = [1,2,3]; y = x; y.append(4) also changes x. Then fix it so x is not affected.
+'''
+x = [1, 2, 3]
+y = x          # Both x and y point to the SAME list
+y.append(4)
+print("x:", x)
+print("y:", y)
+'''
+
 # Q47 Write a program that unpacks a list of 5 elements into 5 separate variables and prints each one with its variable name.
+'''
+lst = [10, 20, 30, 40, 50]
+a, b, c, d, e = lst
+print("a =", a)
+print("b =", b)
+print("c =", c)
+print("d =", d)
+print("e =", e)
+'''
+
 # Q48 Write a program using multiple assignment in one line to store the result of 3 different mathematical expressions.
+'''
+a, b, c = 10 + 5, 20 * 2, 30 - 10
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
+'''
+
 # Q49 Write a program that demonstrates variable scope: show that a variable inside a function is NOT accessible outside it, and handle the error properly using try-except.
+'''
+def my_function():
+    x = 100   # Local variable
+    print("Inside function, x =", x)
+my_function()
+# Trying to access x outside
+try:
+    print("Outside function, x =", x)
+except NameError:
+    print("Error: x is not accessible outside the function")
+'''
+
 # Q50 Write a function safe_divide(a, b) that stores the result in a variable. If b is 0, store None instead and print a message. Test with both cases.
+'''
+def safe_divide(a, b):
+    if b == 0:
+        result = None
+        print("Cannot divide by zero")
+    else:
+        result = a / b
+    return result
+# Test cases
+print("Result 1:", safe_divide(10, 2))  # normal case
+print("Result 2:", safe_divide(10, 0))  # division by zero
+'''
