@@ -164,37 +164,62 @@ print(t) # Correct
 '''
 
 # Q24 What is the output?
-
+'''
 d = {"a": 1, "b": 2}
 print(d["a"])
+'''
 
-'''# Q25 Fix the error:
+# Q25 Fix the error:
+'''
 x = int("hello")
-print(x)
+print(x) # Wrong
+'''
+'''
+x = "hello"
+print(x) # Correct
+'''
 
-# Q26 What is the output?
+# Q26 What is the output? = length of list is 4 
+'''
 x = [1, 2, 3]
 x.append(4)
 print(len(x))
+'''
 
 # Q27 Fix the error:
+'''
 x = "5.5"
-print(int(x))
+print(int(x)) # Wrong
+'''
+'''
+x = 5.5
+print(int(x)) # Correct
+'''
 
-# Q28 What is the output?
+# Q28 What is the output? = [1, 2, 3, 4]
+'''
 a = [1, 2]
 b = [3, 4]
 print(a + b)
+'''
 
 # Q29 Fix the error (duplicate key):
+'''
 d = {"a": 1, "a": 2, "b": 3}
-print(d["a"])
+print(d["a"]) # Wrong
+'''
+'''
+d = {"a": 1, "a1": 2, "b": 3}
+print(d["a"]) # Correct
+'''
 
-# Q30 What is the output?
+# Q30 What is the output? = e
+'''
 s = "hello"
 print(s[1])
+'''
 
-# Q31 Fix the error:
+'''# Q31 Fix the error:
 x = {1, 2, 3}
 x[0] = 10
 print(x)
