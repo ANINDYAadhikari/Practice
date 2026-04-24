@@ -219,53 +219,102 @@ s = "hello"
 print(s[1])
 '''
 
-'''# Q31 Fix the error:
+# Q31 Fix the error:  # Set is not mutable
+'''
 x = {1, 2, 3}
 x[0] = 10
-print(x)
+print(x) # Wrong
+'''
+'''
+x = {1, 2, 3}
+print(x) # Correct 
+'''
 
-# Q32 What is the output?
+# Q32 What is the output? = False, True 
+# In bool(boolean) 0 denotes False and 1 denotes True
+'''
 x = bool(0)
 y = bool(1)
 print(x, y)
+'''
 
 # Q33 Fix the error:
+'''
 x = [1, 2, 3]
 x.add(4)
-print(x)
+print(x) #Wrong 
+'''
+'''
+x = [1, 2, 3]
+x.append(4)
+print(x) # Correct
+'''
 
-# Q34 What is the output?
+# Q34 What is the output? = HELLO
+'''
 x = "hello"
 print(x.upper())
+'''
 
 # Q35 Fix the error:
+'''
 d = {"key": "value"}
-print(d["keys"])
+print(d["keys"]) #Wrong
+'''
+'''
+d = {"key" : "value"}
+print(d["key"]) #Correct
+'''
 
-# Q36 What is the output?
+# Q36 What is the output? = True
+# X is none so next two statements supports the first variable logic
+'''
 x = None
 print(x == None)
 print(x is None)
+'''
 
 # Q37 Fix the error (concatenating int to string):
-age = 25
+'''
+age = 22
 print("My age is " + age)
+'''
+'''
+age = 22
+print("My age is ", age)
+'''
 
-# Q38 What is the output?
+# Q38 What is the output? = 2
+'''
 x = [1, [2, 3], 4]
-print(x[1][0])
+print(x[1][0])  # Gets 2 from the inner list
+'''
 
-# Q39 Fix the error:
+# Q39 Fix the error: #Tuple is not mutable
+'''
 x = (1, 2, 3)
 x.append(4)
-print(x)
+print(x) #Wrong
+'''
+'''
+x = (1, 2, 3)
+print(x) #Correct
+'''
 
-# Q40 What is the output?
-x = {"a": 1}
-x["b"] = 2
-print(x)'''
+# Q40 What is the output? = {'a': 1, 'b': 2}
+'''
+x = {"a": 1}  # creates a new dict 
+x["b"] = 2    # adding a new key and value pair into that dict
+print(x)
+'''
 
 # Q41 Write a program that takes a list of mixed types (int, str, float, bool) and prints the type of each element.
+'''
+var = [11, "Hii", 0.8, True]
+for item in var:
+    print(item, "->", type(item))  #Print value and it's items
+'''
+
 # Q42 Write a function that accepts any value and returns "number", "text", "collection", or "other" based on its type.
 # Q43 Write a program that converts a list to a set to remove duplicates, then converts it back to a list and prints it sorted.
 # Q44 Write a program that stores student data (name, age, grade) in a dictionary and prints each key-value pair using a loop.
