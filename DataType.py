@@ -316,7 +316,7 @@ for item in var:
 '''
 
 # Q42 Write a function that accepts any value and returns "number", "text", "collection", or "other" based on its type.
-
+'''
 def check_type(value):
     if isinstance(value, (int, float)):
         return "number"
@@ -331,8 +331,17 @@ print(check_type(10))        # number
 print(check_type("Hello"))   # text
 print(check_type([1, 2]))    # collection
 print(check_type(True))      # other
+'''
 
 # Q43 Write a program that converts a list to a set to remove duplicates, then converts it back to a list and prints it sorted.
+
+# Original list with duplicates
+lst = [5, 2, 3, 2, 1, 5, 4]
+unique_set = set(lst) # Convert list → set (removes duplicates)
+new_list = list(unique_set) # Convert set → list
+new_list.sort() # Sort the list
+print("Sorted list without duplicates:", new_list)
+
 # Q44 Write a program that stores student data (name, age, grade) in a dictionary and prints each key-value pair using a loop.
 # Q45 Write a function safe_cast(value, target_type) that tries to cast a value to a given type and returns None if it fails (use try-except).
 # Q46 Write a program that demonstrates the immutability of strings — try to change one character, show the error, then show the correct way using string methods.
