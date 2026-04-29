@@ -335,14 +335,26 @@ print(check_type(True))      # other
 
 # Q43 Write a program that converts a list to a set to remove duplicates, then converts it back to a list and prints it sorted.
 
+'''
 # Original list with duplicates
 lst = [5, 2, 3, 2, 1, 5, 4]
 unique_set = set(lst) # Convert list → set (removes duplicates)
 new_list = list(unique_set) # Convert set → list
 new_list.sort() # Sort the list
 print("Sorted list without duplicates:", new_list)
+'''
 
 # Q44 Write a program that stores student data (name, age, grade) in a dictionary and prints each key-value pair using a loop.
+
+student = {
+    "name": "Anindya",
+    "age" : 22,
+    "grade": "A"
+}
+# Loop through dictionary and print key-value pairs
+for key, value in student.items():
+    print(key, ":", value)
+
 # Q45 Write a function safe_cast(value, target_type) that tries to cast a value to a given type and returns None if it fails (use try-except).
 # Q46 Write a program that demonstrates the immutability of strings — try to change one character, show the error, then show the correct way using string methods.
 # Q47 Create a nested dictionary representing 2 students with their name, age, and marks. Write a loop to print all details.
