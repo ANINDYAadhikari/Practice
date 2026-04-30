@@ -356,6 +356,21 @@ for key, value in student.items():
     print(key, ":", value)
 
 # Q45 Write a function safe_cast(value, target_type) that tries to cast a value to a given type and returns None if it fails (use try-except).
+'''
+def safe_cast(value, target_type):
+    try:
+        result = target_type(value)
+    except:
+        result = None
+    return result
+
+# Test cases
+print(safe_cast("100", int))     # valid
+print(safe_cast("abc", int))     # invalid
+print(safe_cast("3.5", float))   # valid
+print(safe_cast("hello", int))   # invalid
+'''
+
 # Q46 Write a program that demonstrates the immutability of strings — try to change one character, show the error, then show the correct way using string methods.
 # Q47 Create a nested dictionary representing 2 students with their name, age, and marks. Write a loop to print all details.
 # Q48 Write a program that takes a list of numbers and separates them into two lists: one for int and one for float. Print both lists.
