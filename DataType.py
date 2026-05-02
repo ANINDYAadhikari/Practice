@@ -388,6 +388,25 @@ print("Modified string:", new_s)
 '''
 
 # Q47 Create a nested dictionary representing 2 students with their name, age, and marks. Write a loop to print all details.
+
+nested_dict = {
+    "student1": {
+        "Name": "Anamika Pal",
+        "Age": 22,
+        "Marks": 99
+    },
+    "student2": {
+        "Name": "Anindya Adhikari",
+        "Age": 22,
+        "Marks": 96
+    }
+}
+for student, details in nested_dict.items():
+    print(student)
+
+    for key, value in details.items():
+        print(key, ":", value)
+        
 # Q48 Write a program that takes a list of numbers and separates them into two lists: one for int and one for float. Print both lists.
 # Q49 Write a program that merges two dictionaries into one. If a key exists in both, keep the value from the second dictionary.
 # Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.'''
