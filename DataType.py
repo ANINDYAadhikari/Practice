@@ -409,7 +409,7 @@ for student, details in nested_dict.items():
 '''
 
 # Q48 Write a program that takes a list of numbers and separates them into two lists: one for int and one for float. Print both lists.
-
+'''
 numbers = [1, 2.5, 3, 4.7, 5, 6.0]
 int_list = []
 float_list = []
@@ -420,6 +420,7 @@ for num in numbers:
         float_list.append(num)
 print("Integers:", int_list)
 print("Floats:", float_list)
+'''
 
 # Q49 Write a program that merges two dictionaries into one. If a key exists in both, keep the value from the second dictionary.
 # Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.'''
