@@ -423,4 +423,12 @@ print("Floats:", float_list)
 '''
 
 # Q49 Write a program that merges two dictionaries into one. If a key exists in both, keep the value from the second dictionary.
+
+# Two dictionaries
+d1 = {"a": 1, "b": 2}
+d2 = {"b": 3, "c": 4}
+# Merge dictionaries
+d1.update(d2)
+print("Merged dictionary:", d1)
+
 # Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.'''
