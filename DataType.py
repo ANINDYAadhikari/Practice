@@ -431,8 +431,9 @@ d2 = {"b": 3, "c": 4}
 d1.update(d2)
 print("Merged dictionary:", d1)
 '''
-# Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.
 
+# Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.
+'''
 name = "Anindya"              # str
 age = 22                      # int
 marks = 85.5                  # float
@@ -448,3 +449,4 @@ print("Student Record")
 
 for key, value in student.items():
     print(key, ":", value)
+'''
