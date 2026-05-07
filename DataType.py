@@ -423,12 +423,28 @@ print("Floats:", float_list)
 '''
 
 # Q49 Write a program that merges two dictionaries into one. If a key exists in both, keep the value from the second dictionary.
-
+'''
 # Two dictionaries
 d1 = {"a": 1, "b": 2}
 d2 = {"b": 3, "c": 4}
 # Merge dictionaries
 d1.update(d2)
 print("Merged dictionary:", d1)
+'''
+# Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.
 
-# Q50 Write a program that uses all 5 data types (int, float, str, list, dict) in a meaningful way — for example, a mini student record system that stores and displays info.'''
+name = "Anindya"              # str
+age = 22                      # int
+marks = 85.5                  # float
+subjects = ["Algorithm", "Python", "Science"]   # list
+student = {                 # dict
+    "Name": name,
+    "Age": age,
+    "Marks": marks,
+    "Subjects": subjects
+}
+# Display student record
+print("Student Record")
+
+for key, value in student.items():
+    print(key, ":", value)
