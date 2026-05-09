@@ -419,3 +419,7 @@ print("Result 1:", safe_divide(10, 2))  # normal case
 print("Result 2:", safe_divide(10, 0))  # division by zero
 '''
 
+
+
+
+
