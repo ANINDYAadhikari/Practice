@@ -421,5 +421,3 @@ print("Result 2:", safe_divide(10, 0))  # division by zero
 
 
 
-
-
